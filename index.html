@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!-- <html lang="pt-br"> -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google" content="notranslate">
+    <title>Action Voice | Plataforma de SMS Corporativo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="top-bar">
+            <div class="container top-bar-flex">
+                <div class="contact-line">
+                    <span data-i18n="support">Suporte: Seg-Sex 9h às 18h | Sáb-Dom 8h às 20h</span>
+                    <span class="separator">|</span>
+                    <span><span data-i18n="platform_status">Status da Plataforma:</span> <strong data-i18n="operational" style="color: #4ade80;">Operacional</strong></span>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar">
+            <div class="container navbar-flex">
+                <div class="logo">
+                    <a href="/">
+                        <!-- <i class="fa-solid fa-hurricane icon-spiral"></i> -->
+                        <img src="/img-ideias/logo.png" alt="" >
+                        <!-- <span class="text-action">Action</span><span class="text-voice">Voice</span> -->
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#solucoes" data-i18n="nav_solutions">Soluções SMS</a></li>
+                    <li><a href="#api" data-i18n="nav_api">Integração API</a></li>
+                    <li><a href="#time" data-i18n="nav_consultants">Consultores</a></li>
+                    <li class="lang-selector">
+                       <button class="lang-btn">
+                            <span id="current-lang-label">🇧🇷 PT</span>
+                            <!-- <div class="language-select">
+                                pt-BR
+                            </div> -->
+                            <i class="fa-solid fa-chevron-down"></i>
+                       </button>
+                        <ul class="lang-dropdown">
+                            <li data-lang="pt">🇧🇷 Português</li>
+                            <li data-lang="en">🇺🇸 English</li>
+                            <li data-lang="es">🇪🇸 Español</li>
+                            <li data-lang="zh">🇨🇳 简体中文 (Chinês)</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-bg-wrapper">
+                <img src="/img-ideias/Gemini_Generated_Image_wuyv5hwuyv5hwuyv.png" alt="Background Action Voice">
+            </div>
+            <div class="container hero-grid">
+                <div class="hero-text">
+                    <span class="badge-mod" data-i18n="hero_badge">Moderação mais rápida do mercado</span>
+                    <h1 data-i18n="hero_title">Suporte 100% <span data-i18n-span>Humanizado.</span></h1>
+                    <p data-i18n="hero_p">Sua comunicação não pode esperar. Tenha entrega garantida, suporte estendido e a moderação mais ágil do Brasil para suas operações de SMS.</p>
+                    <div class="hero-btns">
+                        <a href="#contato" class="btn-main" data-i18n="btn_start">Começar Agora</a>
+                        <a href="#solucoes" class="btn-outline" data-i18n="btn_solutions">Ver Soluções</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="sla-card">
+                        <div class="sla-label" data-i18n="sla_label">SLA DE APROVAÇÃO</div>
+                        <div class="sla-clock">15:00</div>
+                        <p data-i18n="sla_p">Monitoramento ativo e suporte imediato.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="authority-bar">
+            <div class="container stats-grid">
+                <div class="stat-item">
+                    <span class="number">+10 Mi</span>
+                    <span class="label" data-i18n="stat_sent">SMS/mês enviados</span>
+                </div>
+                <div class="stat-item">
+                    <span class="number">99%</span>
+                    <span class="label" data-i18n="stat_read">Taxa de Leitura</span>
+                </div>
+                <div class="stat-item">
+                    <span class="number" data-i18n="stat_direct">Direto</span>
+                    <span class="label" data-i18n="stat_conn">Conexão Operadoras</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="solucoes" class="solutions">
+            <div class="container">
+                <div class="centered-header">
+                    <h2 data-i18n="sol_title">Soluções de Mensageria Corporativa</h2>
+                    <p data-i18n="sol_p">Tudo o que sua empresa precisa para se comunicar de forma profissional.</p>
+                </div>
+                <div class="solutions-grid">
+                    <div class="sol-card">
+                        <div class="sol-icon">✉️</div>
+                        <h3 data-i18n="card_corp_t">SMS Corporativo</h3>
+                        <p data-i18n="card_corp_p">Envios em massa para marketing e cobrança com relatórios em tempo real.</p>
+                    </div>
+                    <div class="sol-card">
+                        <div class="sol-icon">🔐</div>
+                        <h3 data-i18n="card_token_t">SMS Token (2FA)</h3>
+                        <p data-i18n="card_token_p">Autenticação de dois fatores para garantir a segurança dos seus usuários.</p>
+                    </div>
+                    <div class="sol-card">
+                        <div class="sol-icon">💻</div>
+                        <h3 data-i18n="card_api_t">API de Integração</h3>
+                        <p data-i18n="card_api_p">Conecte seu sistema diretamente via HTTP ou SMPP em minutos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-about">
+                <div class="logo-f"><span>ACTIONVOICE</span></div>
+                <p data-i18n="footer_about">Plataforma líder em soluções de mensageria SMS corporativa.</p>
+            </div>
+            <div class="footer-contact">
+                <h4 data-i18n="footer_contact_t">Contato</h4>
+                <p>suporte@actionvoice.com.br</p>
+                <p><strong>CNPJ: 00.000.000/0001-00</strong></p>
+            </div>
+        </div>
+        <div class="footer-legal">
+            <div class="container">
+                <p data-i18n="footer_copy">&copy; 2014-2024 Action Voice. Tecnologia em Mensageria.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="language.js"></script>
+    <!-- <script src="language.ts"></script> -->
+</body>
+</html>
